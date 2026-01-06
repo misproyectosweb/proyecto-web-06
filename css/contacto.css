@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/12/2025, 05:29:43 PM
+    Author     : pcgc7
+*/
+
+
+.titulo2 { font-family: "Bree Serif", serif; font-weight: 400; font-style: normal; }
+.redes { font-size: 1.5em; }
+.mt-3 { margin-top: 0 !important; }
+.mr-4 { margin-right: 1.5em !important; }
+.w-75 { width: 75% !important; }
+
+/****************************** MEDIA QUERIES ******************************/
+
+@media screen and (min-width: 1484px) and (max-width: 1647.98px) {
+    
+    .mt-3 { margin-top: 0.25em !important; }
+    .mr-4 { margin-right: 1.25em !important; }
+    .w-75 { width: 70% !important; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1483.98px) {
+    
+    .mt-3 { margin-top: 0.5em !important; }
+    .mr-4 { margin-right: 1em !important; }
+    .w-75 { width: 65% !important; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .mt-3 { margin-top: 0.5em !important; }
+    .mr-4 { margin-right: 0.75em !important; }
+    .w-75 { width: 60% !important; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    .mt-3 { margin-top: 0.75em !important; }
+    .mr-4 { margin-right: 0.5em !important; }
+    .w-75 { width: 55% !important; }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    .mt-3 { margin-top: 0.75em !important; }
+    .mr-4 { margin-right: 0.25em !important; }
+    .w-75 { width: 55% !important; }
+}
+
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
+    
+    .mt-3 { margin-top: 1em !important; }
+    .mr-4 { margin-right: 0 !important; }
+    .w-75 { width: 50% !important; }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .mt-3 { margin-top: 1em !important; }
+    .mr-4 { margin-right: 0 !important; }
+    .w-75 { width: 50% !important; }
+}

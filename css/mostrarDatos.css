@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3/01/2026, 09:55:29 AM
+    Author     : pcgc7
+*/
+
+
+.imgFondo {
+    background-image: url('../imagenes/fondoPizzas_02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.colorFondo { 
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************** MEDIA QUERIES ******************************/
+
+@media screen and (min-width: 1484px) and (max-width: 1647.98px) {
+    
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1483.98px) {
+    
+    
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
+    
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    
+    
+}
