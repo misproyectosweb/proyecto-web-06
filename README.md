@@ -16,17 +16,17 @@ El archivo **index.php** es el archivo que contiene la página de inicio o pági
 
 La página contiene dos secciones:
 
--	**Primera sección:**
-   -	Presenta una pantalla la cual le da la bienvenida al cliente
-   -	Muestra un botón donde dirige al cliente a la segunda sección, el cual presenta una variedad de beneficios y servicios que ofrece la empresa
+1.	**Primera sección:**
+   _	Presenta una pantalla la cual le da la bienvenida al cliente
+   _	Muestra un botón donde dirige al cliente a la segunda sección, el cual presenta una variedad de beneficios y servicios que ofrece la empresa
 
--	**Segunda sección:**
-  -	En esta sección se muestran los siguientes elementos:
-  -	Un formulario para que el cliente pueda  definir la fecha y hora de su reservación
-  -	La información de contacto del negocio
-  -	Las distintas redes sociales definidas por el restaurante para mantener informado a sus clientes
-  -	El horario de servicio del restaurante
-  -	Enlaces a los distintos productos que componen el menú de especialidades que ofrece el restaurante
+2.	**Segunda sección:**
+   -	En esta sección se muestran los siguientes elementos:
+   -	Un formulario para que el cliente pueda  definir la fecha y hora de su reservación
+   -	La información de contacto del negocio
+   -	Las distintas redes sociales definidas por el restaurante para mantener informado a sus clientes
+   -	El horario de servicio del restaurante
+   -	Enlaces a los distintos productos que componen el menú de especialidades que ofrece el restaurante
 
 Para almacenar la información del usuario ingresada a través del formulario de contacto se utiliza **phpMyAdmin,** el cual es una herramienta de administración gratuita y de código abierto para gestores de bases de datos como **MySQL** y **MariaDB**
 
