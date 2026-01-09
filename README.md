@@ -35,3 +35,13 @@ Una vez que la información se ha validado y se ha enviado, se muestra una panta
 Para el formulario de contacto se programaron validaciones tanto del lado del cliente, implementando mensajes personalizados con clases integradas en Bootstrap, los cuales brindan acceso a las API de validación de formularios en JavaScript como validaciones del lado del servidor programadas con el lenguaje de programación PHP.
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente: 
+
+![restaurante_01](https://github.com/user-attachments/assets/aafed4ad-913c-4465-aec7-e6db7466d4bb)
+**==========================================================================**
+![restaurante_02](https://github.com/user-attachments/assets/b49a5aa3-4caa-4573-bd31-3bb3edbef25b)
+**==========================================================================**
+![restaurante_03](https://github.com/user-attachments/assets/b0f28fe8-537d-4dbd-8226-86817701183e)
+**==========================================================================**
+![restaurante_04](https://github.com/user-attachments/assets/d15f2289-f9d7-483b-85e9-7a804386503e)
+**==========================================================================**
+![restaurante_05](https://github.com/user-attachments/assets/7d2c6cfe-482c-4e40-a36f-e93448bee2e3)
