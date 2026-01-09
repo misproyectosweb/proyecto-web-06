@@ -17,8 +17,8 @@ El archivo **index.php** es el archivo que contiene la página de inicio o pági
 La página contiene dos secciones:
 
 -	**Primera sección:**
-  -	Presenta una pantalla la cual le da la bienvenida al cliente
-  -	Muestra un botón donde dirige al cliente a la segunda sección, el cual presenta una variedad de beneficios y servicios que ofrece la empresa
+   -	Presenta una pantalla la cual le da la bienvenida al cliente
+   -	Muestra un botón donde dirige al cliente a la segunda sección, el cual presenta una variedad de beneficios y servicios que ofrece la empresa
 
 -	**Segunda sección:**
   -	En esta sección se muestran los siguientes elementos:
