@@ -15,6 +15,21 @@ and open the template in the editor.
 .mr-4 { margin-right: 1.5em !important; }
 .w-75 { width: 75% !important; }
 
+/*********************** Estilos para las validaciones en PHP *****************/
+
+.error {
+    background-color: var(--colorRojo2);      
+}
+.correcto {
+    background-color: var(--colorVerde1);    
+}
+.error, .correcto {
+    font-size: 0.8em;
+    padding: 1em;
+    font-weight: 600;
+    margin: 0;
+}
+
 /****************************** MEDIA QUERIES ******************************/
 
 @media screen and (min-width: 1484px) and (max-width: 1647.98px) {

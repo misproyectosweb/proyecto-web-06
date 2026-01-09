@@ -83,9 +83,14 @@
                                 <option value="9">9</option>
                                 <option value="10">10</option>
                             </select>
+                            <div class="valid-feedback is-valid">¡OK, válido!</div>
                             <div class="invalid-feedback is-invalid">Ingresa el total de personas para la reservación</div>
                         </div>
                         <input type="submit" id="boton" class="btn btn-primary p-2 my-2" name="enviar" value="Solicita tu reservacón de inmediato">
+                        
+                        <?php
+                            require 'validaciones.php';
+                        ?>
                     </form>
                 </div>
                 
@@ -146,33 +151,33 @@
                 <i class="far fa-copyright mr-2"></i><small>Lorem ipsum dolor sit amet 2025 - consectetur elit adipiscing</small>
             </div>
         </div>
-                
-        <?php
-            // put your code here
-        ?>
-        
+                                
         <!-- Validaciones de campos del formulario -->
         <!-- Función que permite deshabilitar el envío de datos en formularios si hay campos inválidos-->
         <script>
-            (() => {
-                'use strict'
+            
+            // Función que permite la deshabilitación del envío de datos en formularios si hay campos inválidos
+            (function() {
+                
+                'use strict';
+                window.addEventListener('load', function() {
 
-                // Obtener todos los campos del formulario a los que queremos aplicar estilos de validación de Bootstrap personalizados
-                const forms = document.querySelectorAll('.needs-validation')
+                    // Obtener todos los campos del formulario a los que queremos aplicar estilos de validación de Bootstrap personalizados
+                    var forms = document.getElementsByClassName('needs-validation');
 
-                // Recorre los campos del formulario y evita que el form se envíe de forma inmediata
-                Array.from(forms).forEach(form => {
-                  form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                      event.preventDefault()
-                      event.stopPropagation()
-                    }
-
-                    form.classList.add('was-validated')
-                  }, false)
-                })
-            })()
-        </script>
+                    // Recorre los campos del formulario y evita que el form se envíe de forma inmediata
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                        form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })(); 
+        </script>        
                         
         <!-- Archivos JavaScript utilizados por Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
