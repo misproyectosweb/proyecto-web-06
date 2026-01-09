@@ -21,7 +21,7 @@ La página contiene dos secciones:
    _ Muestra un botón donde dirige al cliente a la segunda sección, el cual presenta una variedad de beneficios y servicios que ofrece la empresa
 
 2.	**Segunda sección:**\
-   -_En esta sección se muestran los siguientes elementos:\
+   -En esta sección se muestran los siguientes elementos:\
    - Un formulario para que el cliente pueda  definir la fecha y hora de su reservación\
    - La información de contacto del negocio\
    - Las distintas redes sociales definidas por el restaurante para mantener informado a sus clientes\
